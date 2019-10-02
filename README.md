@@ -25,5 +25,5 @@ Paso 3:
   
 Paso 4:
   Se procedió a armar los clusters:
-    -Para ello se utilizó el algoritmo de kmeans de sklearn para crear clusters. Iteramos a 3 valores.
+    -Para ello se utilizó el algoritmo de kmeans de sklearn para crear clusters. Se iteró a 3 valores.
     
