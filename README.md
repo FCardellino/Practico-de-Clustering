@@ -1,4 +1,4 @@
-# Practico de Clustering
+# Practico de Clustering - Objetivo 1
 
 Para la realización del siguiente práctico se utilizo el corpus de La Voz del Interior.
 Los pasos seguidos fueron los siguientes:
