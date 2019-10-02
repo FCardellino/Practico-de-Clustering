@@ -5,10 +5,10 @@ Los pasos seguidos fueron los siguientes:
 
 Paso 1:
   Se procedió a realizar el preprocesamiento del corpus mediante SpaCy:
-    -se realizo la respectiva tokenización
-    -se eliminaron las stopwords y demás caracteres vacións
-    -se aplicó lowercase a todas las palabras
-    -se obtuvo el lemma, pos, dep y head de los tokens
+    se realizo la respectiva tokenización
+    se eliminaron las stopwords y demás caracteres vacións
+    se aplicó lowercase a todas las palabras
+    se obtuvo el lemma, pos, dep y head de los tokens
 
 Paso 2:
   Se procedió al diseño de la matriz mediante la función build_cooccurrence_matrix, que devuelve una matriz de co-ocurrencia de palabras:
