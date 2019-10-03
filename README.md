@@ -32,10 +32,14 @@ Se procedió a realizar el preprocesamiento del corpus mediante SpaCy:
                     document["body"] = line.strip()
                     yield document
 
-+Luego se tomó el "Cuerpo" del documento y mediante SpaCy se procedió a "limpiarlo, para lo cual:
++Luego se tomó el "Cuerpo" del documento y mediante SpaCy se procedió a "limpiarlo", para lo cual:
+
 -se realizó la respectiva tokenización
+
 -se eliminaron stopwords y demás caracteres vaciós
+
 -se aplicó lowercase a todas las palabras
+
 -se obtuvo el lemma, pos, dep y head de los tokens
 
     nlp = spacy.load("es")
