@@ -68,7 +68,7 @@ Se procedió a la representación vectorial de las palabras y el diseño del mod
 
 -En ella se definieron los siguientes parametros:
 
-*Se optó por utilizar solo tokens. Estos fueron almacenados en una varable "contxto" obtenida mediante una función, "conell_iterator"
+*Se optó por utilizar solo tokens. Estos fueron almacenados en una varable "contexto" obtenida mediante una función, "conell_iterator"
 
     def conll_iterator(file):
         context = []
