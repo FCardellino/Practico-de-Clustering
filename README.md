@@ -65,6 +65,7 @@ Se procedió a realizar el preprocesamiento del corpus mediante SpaCy:
 Se procedió a la representación vectorial de las palabras y el diseño del modelo de matriz:
 
 +Se definió una función, "build_cooccurrence_matrix", para la elaboración de una matriz de co-ocurrencia de palabras:
+
 -En ella se definieron los siguientes parametros:
 
 *Se optó por utilizar solo tokens. Estos fueron almacenados en una varable "contxto" obtenida mediante una función, "conell_iterator"
