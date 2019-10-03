@@ -61,7 +61,7 @@ Se procedió a realizar el preprocesamiento del corpus mediante SpaCy:
         
  Y todo ello fue dirigido a un nuevo documento "lavozprocess.conll"
 
--Paso 2:-
+-Paso 2:
 Se procedió a la representación vectorial de las palabras y el diseño del modelo de matriz:
 
 +Se definió una función, "build_cooccurrence_matrix", para la elaboración de una matriz de co-ocurrencia de palabras:
